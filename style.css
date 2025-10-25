@@ -1,0 +1,21 @@
+body{
+    color: deepskyblue;
+    background-color: #0b0044 ;
+}
+.header-text{
+    color: deepskyblue ;
+    background-color: #0b0044 ;
+}
+nav{
+    color: deepskyblue !important;
+    background-color: #0b0044 !important;
+}
+.slick-slider{
+    display: flex !important;
+    align-items: center;
+}
+.carousel__item{
+    display: flex !important;
+    flex-direction: column;
+    margin-right: 20px;
+}

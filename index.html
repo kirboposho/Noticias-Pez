@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabajo de bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <header class=" bs-info header-text" >
+        <!--Añadir más puntos según la cantidad de elementos-->
+        <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Noticias pez</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!--NO OLVIDAR CAMBIAR ID-->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#1">Los peces</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#2">Los corales</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#form">Formulario</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+    </header>
+    <div class="container text-center">
+        <h1>Noticias pez</h1>
+
+  </div>
+  <div class="carousel">
+    <div class="carousel__item">
+        <img src="coral.webp" alt="foto 1" class="image, img-fluid" width="400px" height="250px">
+        <p class="title">Coral</p>
+    </div>
+    <div class="carousel__item">
+        <img src="pez.jpg" alt="foto2" class="image, img-fluid" width="400px" height="250px">
+        <p class="title">Pez koi</p>
+    </div>
+    <div class="carousel__item">
+        <img src="pespada.jpg" alt="foto3" class="image, img-fluid" width="400px" height="250px">
+        <p class="title">Pez espada</p>
+    </div>
+    <div class="carousel__item">
+        <img src="globo.jpg" alt="foto4" class="image, img-fluid" width="400px" height="250px">
+        <p class="title">Pez globo</p>
+    </div>
+    <div class="carousel__item">
+        <img src="salmon de mar.jpg" alt="foto5" class="image, img-fluid" width="400px" height="250px">
+        <p class="title">Salmón de mar</p>
+    </div>
+    <div class="carousel__item">
+        <img src="paiche.jpg" alt="foto6" class="image, img-fluid" width="400px" height="250px">
+        <p class="title">Paiche</p>
+    </div>
+</div>
+
+  <div class="container">
+  <div class="row">
+    <div class="col">
+        <article id="1">
+            <h3>Los Peces: Habitantes del Mundo Acuático</h3>
+            <img src="pez.jpg" class="img-fluid">
+            <figcaption class="blockquote-footer">
+            <cite title="Source Title">Peces koi</cite>
+            </figcaption>
+            <p>Los peces son animales vertebrados que habitan en medios acuáticos, tanto en agua dulce como salada. Se caracterizan por poseer aletas que les permiten desplazarse, branquias que utilizan para respirar oxígeno disuelto en el agua y un cuerpo generalmente cubierto de escamas. Constituyen el grupo de vertebrados más diverso del planeta, con más de 33 000 especies registradas hasta hoy.</p>
+            <h4>Características principales</h4>
+            <ul>
+                <li>
+                    <strong>Respiración:</strong> La mayoría de peces respira a través de branquias, aunque algunos poseen adaptaciones que les permiten captar oxígeno del aire.
+                </li>
+                <li>
+                    <strong>Locomoción:</strong> Sus aletas y la forma hidrodinámica del cuerpo les facilitan moverse con rapidez y eficiencia.
+                </li>
+                <li>
+                    <strong>Reproducción:</strong> En su mayoría son ovíparos, depositando huevos en el agua, aunque también existen especies vivíparas.
+                </li>
+                <li>
+                    <strong>Alimentación:</strong> Su dieta es muy variada. Pueden ser carnívoros, herbívoros, omnívoros o detritívoros, dependiendo del hábitat y la especie.
+                </li>
+            </ul>
+        </article>
+    </div>
+
+    <div class="col" id="2">
+        <h3>El Arrecife de Coral: Tesoro de la Vida Marina</h3>
+        <img src="coral.webp" class="img-fluid">
+        <figcaption class="blockquote-footer">
+            <cite title="Source Title">Arrecife de coral</cite>
+        </figcaption>
+            <p>
+                Los arrecifes de coral son uno de los ecosistemas más ricos y diversos del planeta. A pesar de ocupar menos del 1 % de la superficie oceánica, albergan alrededor del 25 % de todas las especies marinas conocidas. Su belleza, biodiversidad y función ecológica los convierten en auténticos tesoros naturales.
+            </p>
+            
+                <p><strong>¿Qué son los arrecifes de coral?:</strong></p>
+            <p>
+            Los arrecifes no son simples "piedras" del mar, sino estructuras formadas por diminutos organismos llamados pólipos de coral. Estos animales, al unirse con algas microscópicas llamadas zooxantelas, construyen esqueletos de carbonato de calcio que se acumulan durante siglos, dando origen a formaciones sólidas y coloridas.
+            </p>
+            <h4>Tipos principales <small class="text-body-secondary">Son 3 principales</small></h4>
+            <ul>
+                <li>
+                    <strong>Arrecifes de franja:</strong> cercanos a la costa.
+                </li>
+                <li>
+                    <strong>Arrecifes barrera:</strong> separados de la costa por una laguna.
+                </li>
+                <li>
+                    <strong>Atolones:</strong> estructuras circulares en medio del océano que rodean una laguna central.
+                </li>
+            </ul>
+           <!--Hacer 2 rows más para hacer 2 articulos más (sobre el mar o medioambiente)-->
+  
+  </div>
+</div>
+</div>
+</div>
+<br>
+<div class="container text-center" id ="form">
+    <h1>¿De qué hacemos un nuevo articulo?</h1>
+    <form>
+   <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Nombre</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Tu nombre completo para ponerte en el articulo como contribuidor de la idea">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Tu correo electronico para comunicarnos contigo">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Tema a investigar y realizar articulo</label>
+    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Escribe un tema que te gustaria que hagamos un articulo">
+  </div>
+  <button type="submit" class="btn btn-primary" href="#">Enviar</button>
+</form> 
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
